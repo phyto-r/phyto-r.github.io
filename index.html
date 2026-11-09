@@ -32,17 +32,29 @@ header {
 
 
 nav {
-    background: #dcebdc;
-    padding: 15px;
+    background: #ffffff;
+    padding: 18px 10px;
     text-align: center;
+    border-bottom: 1px solid #e8e5df;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav a {
     text-decoration: none;
-    color: #245c40;
-    margin: 12px;
-    font-weight: bold;
+    color: #292929;
+    margin: 8px 14px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: inline-block;
 }
+
+nav a:hover {
+    color: #71866a;
+}
+
 
 .hero {
     text-align: center;
@@ -88,13 +100,24 @@ footer {
 </header>
 
 
-<nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#academy">Plant Academy</a>
-<a href="#projects">Projects</a>
-<a href="#membership">Membership</a>
+<nav aria-label="Main navigation">
+
+<a href="#home">HOME</a>
+
+<a href="#about">ABOUT US</a>
+
+<a href="#academy">PLANT ACADEMY</a>
+
+<a href="#projects">PROJECTS</a>
+
+<a href="#directory">PLANT DIRECTORY</a>
+
+<a href="#membership">MEMBERSHIP</a>
+
+<a href="#contact">CONTACT</a>
+
 </nav>
+
 
 <div class="hero" id="home">
 
