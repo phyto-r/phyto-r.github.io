@@ -233,6 +233,70 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+    /* PLANT ACADEMY */
+
+.academy-section {
+    padding: 80px 10%;
+    background: #f5f3ed;
+    text-align: center;
+}
+
+.academy-section h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: #344b3b;
+}
+
+.academy-intro {
+    max-width: 750px;
+    margin: 20px auto 45px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.academy-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.academy-card {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.academy-card:hover {
+    transform: translateY(-5px);
+}
+
+.academy-card h3 {
+    font-family: Georgia, serif;
+    color: #526d50;
+}
+
+.academy-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .academy-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .academy-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 </style>
 </head>
 
